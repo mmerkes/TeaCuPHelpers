@@ -13,7 +13,11 @@ $ node tcp_server.js
 [LOG] Listening at port 3000
 ```
 
-Once the server is running, you should see any messages sent to the server at port 3000 logged in the console.
+Once the server is running, you should see any messages sent to the server at port 3000 logged in the console. The server will log the following:
+
+1. New connections
+2. Data sent
+3. Closing connections
 
 ## TCP Client
 
